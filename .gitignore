@@ -1,0 +1,10 @@
+.build
+*.cpp.d
+*.cpp.o
+spiffs.img
+littlefs.img
+*.mk
+*.swp
+eagle/WifiWeatherGuy.pro
+eagle/WifiWeatherGuy.b#?
+data/*/config.json

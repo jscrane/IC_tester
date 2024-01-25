@@ -8,24 +8,24 @@ To use the code unmodified, wire up as follows:
 
  ZIF pin |Arduino pin | Notes
 --------:|-----------:|---------------------
-1        | 10         | Via 330 ohm resistor
-2        |  9         | Via 330 ohm resistor
-3        |  8         | Via 330 ohm resistor
+1        |  2         | Via 330 ohm resistor
+2        |  3         | Via 330 ohm resistor
+3        |  4         | Via 330 ohm resistor
 4        |  7         | Via 330 ohm resistor
-5        |  6         | Via 330 ohm resistor
-6        |  5         | Via 330 ohm resistor
-7        |  4         | Via 330 ohm resistor
-8        |  3         | Via 330 ohm resistor
-9        |  11        | Via 330 ohm resistor
-10       |  12        | Via 330 ohm resistor
-11       |  A5        | Via 330 ohm resistor
-12       |  A4        | Via 330 ohm resistor
-13       |  A3        | Via 330 ohm resistor
-14       |  A2        | Via 330 ohm resistor
-15       |  A1        | Via 330 ohm resistor
-16       |  A0        | Via 330 ohm resistor
-7        |  2         | Direct to ZIF pin
-8        |  13        | Direct to ZIF pin
+5        |  8         | Via 330 ohm resistor
+6        |  9         | Via 330 ohm resistor
+7        |  5         | Via 330 ohm resistor
+8        |  6         | Via 330 ohm resistor
+9        |  12        | Via 330 ohm resistor
+10       |  13        | Via 330 ohm resistor
+11       |  A0        | Via 330 ohm resistor
+12       |  A1        | Via 330 ohm resistor
+13       |  A2        | Via 330 ohm resistor
+14       |  A3        | Via 330 ohm resistor
+15       |  A4        | Via 330 ohm resistor
+16       |  A5        | Via 330 ohm resistor
+7        |  11        | Direct to ZIF pin
+8        |  10        | Direct to ZIF pin
 16       |  +5V       | (Optional - see text of article)
 
 Compile and upload sketch (tested on an Arduino Uno). Open the Serial Monitor, set baud rate to 115200, line ending: newline.

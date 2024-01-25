@@ -38,7 +38,7 @@ pins.
 // configuration
 //-----------------------------
 
-#include "pin_mapping.h"
+#include "zifPins.h"
 
 // how much serial data from the user we expect before a newline
 const unsigned int MAX_INPUT = 16;
